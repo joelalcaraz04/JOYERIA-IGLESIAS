@@ -1,0 +1,228 @@
+html,
+body {
+  position: relative;
+}
+/* TIUTLO */
+.titulo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-principal img {
+    max-width: 100%;
+    height: auto;
+}
+/* MENU */
+.menu-color{
+    background-color: bisque;
+}
+.navbar-nav .nav-link {
+    transition: transform 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+}
+.dropdown-item:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: bisque;
+}
+/* CARD */
+body{
+    background-color: white;
+}
+.card {
+    margin: 10px; 
+}
+.card img{
+    width: auto;
+    height: 460px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.texto1{
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/* DISEÑO-CARTA */
+.comprar {
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.comprar span{
+    background: black;
+    padding: 2px 6px;
+    border-radius: 6px;
+    transition: .3s;
+
+}
+.comprar:hover span {
+    background: none;
+}
+.comprar:active{
+    transform: scale(0.9);
+}
+
+.precio-boton{
+    display: flex;
+    justify-content: space-between;
+}
+.precio{
+    font-weight: bold;
+    font-size: large;
+}
+/* CARRITO */
+.pestaña-carrito {
+    width: 450px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    inset: 0 -450px 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    transition: .5s;
+}
+
+.pestaña-carrito h1 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.lista-producto {
+    flex-grow: 1; 
+    margin-bottom: 20px;
+}
+
+.botones-carrito {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; 
+}
+
+.boton-cerrar button, .boton-comprar2 button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    color: white;
+}
+.lista-producto{
+    margin-top: 20px;
+}
+.boton-cerrar button:hover, .boton-comprar button:hover {
+    background-color: gray;
+}
+
+.pestaña-carrito .lista-producto .producto img {
+    width: 50%;
+}
+.prod-nombre{
+    margin-left: -40px;
+}
+.pestaña-carrito .lista-producto .producto {
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+
+}
+.pestaña-carrito .lista-producto .producto .prod-imagen img{
+    width: 90px;
+}
+
+.lista-producto .prod-cantidad span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.lista-producto .prod-cantidad span:nth-child(2) {
+    background-color: transparent;
+    color: white;
+}
+.lista-producto .producto:nth-child(odd) {
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    color: white;
+}
+.producto{
+    margin-top: 15px;
+}
+.lista-producto {
+    overflow: auto;
+}
+
+.lista-producto::-webkit-scrollbar{
+    width: 0;
+}
+
+body.show-carrito .pestaña-carrito {
+    inset: 0 0 0 auto;
+}
+body.show-carrito .carrito{
+    transform: translateX(-250px);
+}
+.carrito{
+    transition: transform .5s ;
+}
+@media only screen and (max-width: 992px) {
+    .lista-producto{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+/* MOVIL */
+@media only screen and (max-width: 768px) {
+    .lista-producto{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* FOOTER */
+footer {
+    background-color: bisque; 
+    color: black; 
+    text-align: center; 
+    padding: 20px;
+    margin-top: 30px;
+}
+footer p {
+    margin: 0; 
+}

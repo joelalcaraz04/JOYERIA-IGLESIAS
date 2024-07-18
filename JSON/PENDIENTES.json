@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Pendiente 1",
+        "price": 1000,
+        "image": "/9L6A0598-Editar.jpg",
+        "desc": "Pendiente de plata bañado en plata"
+    },
+    {
+        "id": 2,
+        "name": "Pendiente 2",
+        "price": 1000,
+        "image": "/9L6A0598-Editar.jpg",
+        "desc": "Pendiente de plata bañado en plata"
+    },
+    {
+        "id": 1,
+        "name": "Pendientes 1",
+        "price": 1000,
+        "image": "/9L6A0586-Editar.jpg",
+        "desc": "Pendiente de plata bañado en oro"
+    },
+    {
+        "id": 2,
+        "name": "Pendientes 2",
+        "price": 1000,
+        "image": "/9L6A0586-Editar.jpg",
+        "desc": "Collar de plata bañado en oro"
+    }
+]

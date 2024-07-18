@@ -1,0 +1,16 @@
+[
+    {
+        "id": 3,
+        "name": "Pulsera 3",
+        "price": 1000,
+        "image": "/9L6A0274-Editar.jpg",
+        "desc": "Pulsera de plata bañado en oro"
+    },
+    {
+        "id": 4,
+        "name": "Pulsera 4",
+        "price": 1000,
+        "image": "/9L6A0274-Editar.jpg",
+        "desc": "Pulsera de plata bañado en oro"
+    }
+]

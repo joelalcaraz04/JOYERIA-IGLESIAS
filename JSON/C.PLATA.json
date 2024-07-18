@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Collar 1",
+        "price": 1000,
+        "image": "/9L6A0026-Editar.jpg",
+        "desc": "Collar de plata bañado en plata"
+    },
+    {
+        "id": 2,
+        "name": "Collar 2",
+        "price": 1000,
+        "image": "/9L6A0026-Editar.jpg",
+        "desc": "Collar de plata bañado en plata"
+    }
+]

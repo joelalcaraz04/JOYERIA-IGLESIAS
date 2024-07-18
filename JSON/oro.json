@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Anillo 1",
+        "price": 1000,
+        "image": "/ANILLOS/9L6A0545-Editar.jpg",
+        "desc": "Anillo de plata bañado en oro"
+    },
+    {
+        "id": 2,
+        "name": "Anillo 2",
+        "price": 1000,
+        "image": "/ANILLOS/9L6A0552-Editar.jpg",
+        "desc": "Anillo de plata bañado en oro"
+    }
+
+]
